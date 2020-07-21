@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-blue {
+  background-color: #141C3A;
+}
+
+.bg-yellow {
+  background-color: #FFDB64;
+}
+
+.text-blue {
+  color: #141C3A !important;
+}
+
+.nav-link {
+  color: red;
+}
+
+.text-yellow {
+  color: #FFDB64;
+}
+
+.nav-hover {
+  transition: .25s;
+}
+
+.nav-hover:hover {
+  color: #FFDB64 !important;
+}
+
+
+.btn-round {
+  border-radius: 20%;
+}
+
+#section_landing {
+  height: 100vh;
+  background-size: cover;
+  background-image: url('/img/landing2.png');
+ 
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  
+}
